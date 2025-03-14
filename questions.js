@@ -1,37 +1,51 @@
 const questions = [
-    { question: "Segurança e Saúde no Trabalho (SST) é um conjunto de práticas que visam proteger a integridade física e mental dos trabalhadores. A NR-6 estabelece a obrigatoriedade do uso de Equipamentos de Proteção Individual (EPIs) para minimizar riscos."
-        +"\n\nQual é o principal objetivo da NR-6?",
-      image: "https://www.estradafacil.com.br/storage/cursos/000162/imagem%20capa%20site_162_20230214161330.jpg", 
-      options: ["Regulamentar o uso de EPIs", "Definir jornadas de trabalho", "Determinar salários mínimos", "Normatizar contratos de trabalho"],
-      answer: "Regulamentar o uso de EPIs" },
-    
-    { question: "Os Equipamentos de Proteção Individual (EPIs) são dispositivos fornecidos pelo empregador para garantir a segurança do trabalhador. Exemplos incluem capacetes, luvas e óculos de proteção."
-        +"\n\nO que é um EPI?",
-        image: "https://blog.lojakallucci.com.br/wp-content/uploads/2023/11/dia-do-tecnico-e-do-engenheiro-de-seguranca-no-trabalho.jpg", 
-      options: ["Ferramenta usada para aumentar a produtividade", "Equipamento fornecido pelo trabalhador", "Dispositivo usado para proteger a saúde e segurança do trabalhador", "Instrumento de medição de produtividade"],
-      answer: "Dispositivo usado para proteger a saúde e segurança do trabalhador" },
-    
-    { question: "A Comissão Interna de Prevenção de Acidentes (CIPA) tem como objetivo prevenir acidentes e doenças ocupacionais por meio da conscientização dos trabalhadores e melhorias nas condições de trabalho."
-        +"\n\nO que significa a sigla CIPA?",
-      image: "https://www.saomiguel.sc.gov.br/storage/pages/cASQ9uWmZFlI0jNQD87MI9Fe6sdlATzKcIDjaamM.jpg", 
-      options: ["Comissão Interna de Prevenção de Acidentes", "Comitê de Investigação de Problemas Ambientais", "Centro de Integração para Proteção Ambiental", "Conselho de Indústria e Prevenção Acidentária"],
-      answer: "Comissão Interna de Prevenção de Acidentes" },
-    
-    { question: "O trabalho em altura oferece riscos graves e é regulamentado pela NR-35. Ela exige treinamentos específicos e uso adequado de EPIs, como cintos de segurança e linhas de vida."
-        +"\n\nQual é a NR responsável pela segurança em trabalhos em altura?",
-      image: "", 
-      options: ["NR-12", "NR-18", "NR-35", "NR-6"],
-      answer: "NR-35" },
-    
-    { question: "Os produtos químicos utilizados no ambiente de trabalho podem oferecer riscos à saúde. Para identificar esses riscos, é utilizado um documento chamado Ficha de Informações de Segurança de Produtos Químicos (FISPQ)."
-        +"\n\nQual é o documento que identifica os riscos químicos no ambiente de trabalho?",
-      image: "", 
-      options: ["FISPQ", "PPRA", "PCMSO", "PPP"],
-      answer: "FISPQ" },
-    
-    { question: "Em caso de incêndio, é essencial seguir o plano de emergência da empresa e utilizar as rotas de fuga indicadas. Essa prática reduz riscos e garante a segurança de todos."
-        +"\n\nO que deve ser feito em caso de incêndio no ambiente de trabalho?",
-      image: "", 
-      options: ["Aguardar orientações superiores", "Sair correndo sem avisar ninguém", "Seguir o plano de emergência e usar as rotas de fuga", "Continuar trabalhando normalmente"],
-      answer: "Seguir o plano de emergência e usar as rotas de fuga" }
+  { question: "O HTML é uma linguagem usada para estruturar o conteúdo de uma página web. Ele define elementos como títulos, parágrafos e links. Qual é a principal função do HTML?", 
+    image: "https://www.w3schools.com/html/img_logo.png", 
+    options: ["Definir o estilo das páginas", "Estruturar o conteúdo da página", "Adicionar interatividade", "Gerenciar bancos de dados"], 
+    answer: "Estruturar o conteúdo da página" },
+
+  { question: "O CSS é uma linguagem utilizada para estilizar os elementos HTML de uma página web. Ele permite modificar o layout, as cores, as fontes, entre outros. Qual é a função principal do CSS?", 
+    image: "https://www.w3schools.com/css/img_logo.png", 
+    options: ["Estruturar o conteúdo da página", "Adicionar interatividade", "Estilizar os elementos da página", "Gerenciar a comunicação com o servidor"], 
+    answer: "Estilizar os elementos da página" },
+
+  { question: "Em HTML, as tags são usadas para identificar e estruturar o conteúdo. Qual tag é utilizada para criar um parágrafo de texto?", 
+    image: "", 
+    options: ["<h1>", "<p>", "<div>", "<a>"], 
+    answer: "<p>" },
+
+  { question: "O CSS pode ser aplicado de várias maneiras. Qual das alternativas abaixo se refere a aplicar CSS diretamente dentro de uma tag HTML?", 
+    image: "", 
+    options: ["Uso de uma tag <style>", "Uso de uma tag <link>", "Uso de uma tag <script>", "Uso de uma tag <class>"], 
+    answer: "Uso de uma tag <style>" },
+
+  { question: "Qual propriedade do CSS é usada para alterar a cor de fundo de uma página?", 
+    image: "", 
+    options: ["background-color", "color", "font-size", "border"], 
+    answer: "background-color" },
+
+  { question: "Qual tag HTML é utilizada para inserir uma imagem em uma página?", 
+    image: "", 
+    options: ["<img>", "<image>", "<picture>", "<src>"], 
+    answer: "<img>" },
+
+  { question: "Em CSS, qual das opções abaixo serve para alterar o tamanho da fonte de um texto?", 
+    image: "", 
+    options: ["font-size", "text-align", "background-size", "color"], 
+    answer: "font-size" },
+
+  { question: "O que faz a propriedade 'display: none;' no CSS?", 
+    image: "", 
+    options: ["Exibe o elemento", "Remove o elemento da página", "Oculta o elemento, mas ainda ocupa espaço", "Oculta o elemento e não ocupa espaço"], 
+    answer: "Oculta o elemento e não ocupa espaço" },
+
+  { question: "O que faz a tag <a> no HTML?", 
+    image: "", 
+    options: ["Cria um link para outra página", "Exibe uma imagem", "Cria um parágrafo", "Formata o texto em negrito"], 
+    answer: "Cria um link para outra página" },
+
+  { question: "Em CSS, qual propriedade é usada para definir o tipo de fonte de um texto?", 
+    image: "", 
+    options: ["font-family", "text-align", "font-size", "color"], 
+    answer: "font-family" }
 ];
